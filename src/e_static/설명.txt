@@ -1,0 +1,14 @@
+
+	Math.random()
+	
+	<일반코드>
+	
+	Math  m = new Math();
+	m.random();
+	
+
+class BadukAl {
+	int x, y;
+	Color c;
+	int r;
+}
