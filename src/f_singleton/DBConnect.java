@@ -11,7 +11,18 @@ public class DBConnect {
 	private DBConnect() {
 		System.out.println("디비연동");
 	}
-	
+	/*
+	 *  리턴형 함수명(인자){
+	 *  
+	 *  }
+	 *  void test(){
+	 *  
+	 *  }
+	 *  
+	 *  int test2(){
+	 *  return 100;
+	 *  }
+	 */
 	public static DBConnect getInstance() {
 		if( con == null ) {
 			con = new DBConnect();
